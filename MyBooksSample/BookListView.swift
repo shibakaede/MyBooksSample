@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  BookListView.swift
 //  MyBooksSample
 //
 //  Created by Alan Chou on 2024/3/27.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct BookListView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    BookListView()
 }
